@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>RoadGuard AI HUD</title>
+</head>
+<body class="dark-theme">
+    <div id="hud-container">
+        <!-- Speed & Risk Meter -->
+        <div class="top-bar">
+            <div class="speed-unit">
+                <span id="speed">0</span><small>KM/H</small>
+            </div>
+            <div class="risk-meter">
+                <div id="risk-level-bar"></div>
+                <label>COLLISION RISK</label>
+            </div>
+        </div>
+
+        <!-- Vision Overlay -->
+        <canvas id="ar-overlay"></canvas>
+        <video id="camera-feed" autoplay playsinline></video>
+
+        <!-- Warning System -->
+        <div id="alert-system" class="hidden">
+            <h1 id="alert-text">BRAKE NOW</h1>
+            <div class="flash-overlay"></div>
+        </div>
+
+        <!-- Medical Profile Shortcut -->
+        <div class="medical-tag">B+ | NO ALLERGIES</div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
