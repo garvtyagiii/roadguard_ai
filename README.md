@@ -1,4 +1,9 @@
 RoadGuard AI 🛡️
+
+
+
+
+
 An AI-powered Advanced Driver Assistance System (ADAS) dashboard designed to improve road safety.
 About 📌
 RoadGuard AI is an intelligent dashboard application leveraging computer vision and deep learning to enhance driver safety. By analyzing live video feeds, it detects potential hazards, monitors vehicle surroundings, and assists in making informed driving decisions.
