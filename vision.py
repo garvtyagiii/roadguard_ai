@@ -1,6 +1,5 @@
-import cv2
-from ultralytics import YOLO # pyright: ignore[reportMissingImports]
-import numpy as np
+import cv2  # pyright: ignore[reportMissingImports]
+from ultralytics import YOLO  # pyright: ignore[reportMissingImports]
 
 class VisionBrain:
     def __init__(self):
